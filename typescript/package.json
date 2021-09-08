@@ -6,12 +6,15 @@
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
   },
-  "keywords": ["TypeScript"],
+  "keywords": [
+    "TypeScript"
+  ],
   "author": "James Schuler",
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.15",
-    "@types/mocha": "^8.2.2",
+    "@types/jest": "^27.0.1",
+    "@types/mocha": "^8.2.3",
     "chai": "^4.3.4",
     "mocha": "^8.3.2",
     "ts-node": "^9.1.1"
